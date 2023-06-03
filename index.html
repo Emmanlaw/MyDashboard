@@ -10,75 +10,95 @@
 <body>
     <header>
         <div class="search">
-            <img src="icons/search.svg" class="search-icon">
-            <input type="text" class="search-input">
-            <img src="icons/bell.svg" class="bell-icon">
-            <div class="profile-container">
-                <div class="profile"></div>
+            <div class="search__bar">
+                <img src="icons/search.svg" class="search-icon">
+                <input type="text" class="search-input">
             </div>
-            <div class="profile-info">
-                <h3>Emman Patigdas</h3>
+
+            <div class="search__profile">
+                <img src="icons/bell.svg" class="bell-icon">
+                <div class="profile-container">
+                    <div class="profile"></div>
+                </div>
+                <div class="profile-info">
+                    <h3>Emman Patigdas</h3>
+                </div>
             </div>
         </div>
     
         <div class="visitor">
-            <div class="profile"></div>
-            <div>
-                <p>Hi there,</p>
-                <h2>Emman</h2>
+            <div class="visitor__card">
+                <div class="profile"></div>
+                <p>Hi there,<br>
+                <span>Emman</span></p>
             </div>
-            <ul>
-                <li>New</li>
-                <li>Upload</li>
-                <li>Share</li>
-            </ul>
+            <div class="visitor__menu">
+                <ul>
+                    <li><a href="#">New</a></li>
+                    <li><a href="#">Upload</a></li>
+                    <li><a href="#">Share</a></li>
+                </ul>
+            </div>
         </div>
     </header>
 
     <nav class="sidenav">
-        <h2>Dashboard</h2>
-        <ul>
-            <li>Home</li>
-            <li>Proflie</li>
-            <li>Message</li>
-            <li>History</li>
-            <li>Tasks</li>
-            <li>Communities</li>
+        <h2><img src="icons/dashboard.svg" alt="dashboard" class="icon__image">Dashboard</h2>
+        <ul class="sidenav__home">
+            <li><img src="icons/home.svg" alt="home"  class="icon__image">Home</li>
+            <li><img src="icons/profile.svg" alt="profile" class="icon__image">Proflie</li>
+            <li><img src="icons/comment.svg" alt="message" class="icon__image">Message</li>
+            <li><img src="icons/history.svg" alt="history" class="icon__image">History</li>
+            <li><img src="icons/tasks.svg" alt="tasks" class="icon__image">Tasks</li>
+            <li><img src="icons/communities.svg" alt="communities" class="icon__image">Communities</li>
         </ul>
-        <ul>
-            <li>Settings</li>
-            <li>Support</li>
-            <li>Privacy</li>
+        <ul class="sidenav__setting">
+            <li><img src="icons/setting.svg" alt="setting" class="icon__image">Settings</li>
+            <li><img src="icons/support.svg" alt="support" class="icon__image">Support</li>
+            <li><img src="icons/privacy.svg" alt="privacy" class="icon__image">Privacy</li>
         </ul>
     </nav>
+
     <main>
-        <div id="mainHeader">
+        <div id="main">
             <h2>Your Projects</h2>
         </div>
-        <div id="cardHolder">
+        <div id="main__cardHolder">
             <div class="card">
                 <h2>Super Cool Project</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque luctus sapien in accumsan. Donec id tortor nec metus tempor bibendum pulvinar ac eros.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque luctus sapien in accumsan. Donec id tortor nec metus tempor bibendum pulvinar ac eros.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque luctus sapien in accumsan. Donec id tortor nec metus tempor bibendum pulvinar ac eros.
+                </p>
             </div>
             <div class="card">
                 <h2>Less Cool Project</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque luctus sapien in accumsan. Donec id tortor nec metus tempor bibendum pulvinar ac eros.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque luctus sapien in accumsan. Donec id tortor nec metus tempor bibendum pulvinar ac eros.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque luctus sapien in accumsan. Donec id tortor nec metus tempor bibendum pulvinar ac eros.
+                </p>
             </div>
             <div class="card">
                 <h2>Impossible App</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque luctus sapien in accumsan. Donec id tortor nec metus tempor bibendum pulvinar ac eros.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque luctus sapien in accumsan. Donec id tortor nec metus tempor bibendum pulvinar ac eros.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque luctus sapien in accumsan. Donec id tortor nec metus tempor bibendum pulvinar ac eros.
+                </p>
             </div>
             <div class="card">
                 <h2>Easy Peasy App</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque luctus sapien in accumsan. Donec id tortor nec metus tempor bibendum pulvinar ac eros.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque luctus sapien in accumsan. Donec id tortor nec metus tempor bibendum pulvinar ac eros.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque luctus sapien in accumsan. Donec id tortor nec metus tempor bibendum pulvinar ac eros.
+                </p>
             </div>
             <div class="card">
                 <h2>Ad Blocker</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque luctus sapien in accumsan. Donec id tortor nec metus tempor bibendum pulvinar ac eros.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque luctus sapien in accumsan. Donec id tortor nec metus tempor bibendum pulvinar ac eros.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque luctus sapien in accumsan. Donec id tortor nec metus tempor bibendum pulvinar ac eros.
+                </p>
             </div>
             <div class="card">
                 <h2>Money Maker</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque luctus sapien in accumsan. Donec id tortor nec metus tempor bibendum pulvinar ac eros.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque luctus sapien in accumsan. Donec id tortor nec metus tempor bibendum pulvinar ac eros.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque luctus sapien in accumsan. Donec id tortor nec metus tempor bibendum pulvinar ac eros.
+                </p>
             </div>
         </div>
     </main>
@@ -100,23 +120,27 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque luctus sapien in accumsan. Donec id tortor nec metus tempor bibendum pulvinar ac eros.</p>
             </div>
         </div>
-    </aside>
-
-    <aside id="bottomSide">
         <div id="trendingSide">
             <h2>Trending</h2>
         </div>
         <div class="bottomCard">
-            <div class="">
+            <div class="button__card">
                 <div class="profile"></div>
+                <p>Hi there,<br>
+                <span>Emman</span></p>
             </div>
-            <div class="">
+            <div class="button__card">
                 <div class="profile"></div>
+                <p>Hi there,<br>
+                <span>Emman</span></p>
             </div>
-            <div class="">
+            <div class="button__card">
                 <div class="profile"></div>
+                <p>Hi there,<br>
+                <span>Emman</span></p>
             </div>
         </div>
     </aside>
+
 </body>
 </html>
