@@ -1,0 +1,70 @@
+body {
+    background-color: #cbd5e1;
+    padding:0;
+    margin:0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 4fr 1fr;
+    grid-template-areas: 
+    "sidenav header header header"
+    "sidenav main main topSide"
+    "sidenav main main bottomSide";
+}
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.search-icon, .bell-icon {
+    height: 20px;
+}
+
+.search-input {
+    width: 200px;
+}
+
+.profile-container {
+    position: relative;
+}
+
+.profile {
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+
+.profile-info {
+    margin-left: 10px;
+}
+header{
+    border: 3px solid black;
+    grid-area:header;
+    display: flex;
+    flex-direction: column;
+}
+.sidenav{
+    border: 3px solid red;
+    grid-area:sidenav;
+
+}
+main {
+    border: 3px solid green;
+    grid-area: main;
+}
+#topSide {
+    border: 3px solid blue;
+    grid-area: topSide;
+}
+#bottomSide {
+    border: 3px solid rgb(128, 0, 100);
+    grid-area: bottomSide;
+}
+.profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
